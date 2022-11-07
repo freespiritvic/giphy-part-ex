@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(234, 241, 248);
+}
+
+header {
+    color: blue;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    }
+
+.form {
+    font-family: 'Azeret Mono', monospace;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input {
+    background-color: rgb(250, 250, 250);
+    font-size: 4em;
+}
+
+.input, #removeBtn, .searchBtn {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#removeBtn {
+    background-color: red;
+    color: azure;
+    border-radius: 10%;
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+
+.searchBtn {
+    background-color: black;
+    color: azure;
+    border-radius: 10%;
+    margin-top: .5rem;
+    font-size: 2rem;
+}
+
+#removeBtn:hover, 
+.searchBtn:hover {
+    cursor: pointer;
+    opacity: .75;
+}
